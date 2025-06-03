@@ -65,7 +65,12 @@ export function openproviders<T extends SupportedModel>(
   const provider = getProviderForModel(modelId)
 
   if (provider === "openai") {
-    return openai(modelId as OpenAIModel, settings as OpenAIChatSettings)
+    //return openai(modelId as OpenAIModel, settings as OpenAIChatSettings)
+    return createOpenAI({
+      baseURL: "https://llm.portalos.ru",
+      apiKey: "ollama", // Ollama doesn't require a real API key
+      name: "ollama",
+    })
   }
 
   if (provider === "mistral") {
