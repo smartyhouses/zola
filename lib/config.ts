@@ -25,10 +25,10 @@ export const FREE_MODELS_IDS = [
 
 export const MODEL_DEFAULT = "gpt-4.1-nano"
 
-export const APP_NAME = "Zola"
-export const APP_DOMAIN = "https://zola.chat"
+export const APP_NAME = "Portal"
+export const APP_DOMAIN = "https://ichat.portalos.ru"
 export const APP_DESCRIPTION =
-  "Zola is a free, open-source AI chat app with multi-model support."
+  "Portal is a free, open-source AI chat app with multi-model support."
 
 export const SUGGESTIONS = [
   {
