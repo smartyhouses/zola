@@ -19,59 +19,59 @@ export type Provider = {
 }
 
 export const PROVIDERS: Provider[] = [
-  {
-    id: "openrouter",
-    name: "OpenRouter",
-    icon: OpenRouter,
-  },
+  //{
+  //  id: "openrouter",
+  //  name: "OpenRouter",
+  //  icon: OpenRouter,
+  //},
   {
     id: "openai",
     name: "OpenAI",
     icon: OpenAI,
   },
-  {
-    id: "mistral",
-    name: "Mistral",
-    icon: Mistral,
-  },
-  {
-    id: "deepseek",
-    name: "DeepSeek",
-    icon: DeepSeek,
-  },
-  {
-    id: "gemini",
-    name: "Gemini",
-    icon: Gemini,
-  },
-  {
-    id: "claude",
-    name: "Claude",
-    icon: Claude,
-  },
-  {
-    id: "grok",
-    name: "Grok",
-    icon: Grok,
-  },
-  {
-    id: "xai",
-    name: "XAI",
-    icon: Xai,
-  },
-  {
-    id: "google",
-    name: "Google",
-    icon: Google,
-  },
-  {
-    id: "anthropic",
-    name: "Anthropic",
-    icon: Anthropic,
-  },
-  {
-    id: "ollama",
-    name: "Ollama",
-    icon: Ollama,
-  },
+  //{
+  //  id: "mistral",
+  //  name: "Mistral",
+  //  icon: Mistral,
+  //},
+  //{
+  //  id: "deepseek",
+  //  name: "DeepSeek",
+  //  icon: DeepSeek,
+  //},
+  //{
+  //  id: "gemini",
+  //  name: "Gemini",
+  //  icon: Gemini,
+  //},
+  //{
+  //  id: "claude",
+  //  name: "Claude",
+  //  icon: Claude,
+  //},
+  //{
+  //  id: "grok",
+  //  name: "Grok",
+  //  icon: Grok,
+ // },
+ // {
+ //   id: "xai",
+  //  name: "XAI",
+  //  icon: Xai,
+  //},
+ // {
+  //  id: "google",
+  //  name: "Google",
+  //  icon: Google,
+  //},
+ // {
+  //  id: "anthropic",
+ //   name: "Anthropic",
+  //  icon: Anthropic,
+ // },
+ // {
+ //   id: "ollama",
+ //   name: "Ollama",
+ //   icon: Ollama,
+ // },
 ] as Provider[]
